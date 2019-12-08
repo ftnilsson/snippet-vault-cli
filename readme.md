@@ -1,7 +1,7 @@
-#Snippet-vault-cli#
+# Snippet-vault-cli
 
 
-##Getting started##
+## Getting started
 
 Clone the repository and cd to checkout diretory.
 
@@ -21,20 +21,41 @@ if you want to change the *"snv"* command, edit package.json and run the link co
         "snv": "./index.js"
     }
 
-##Using##
+## Using
 
 **Usage: snv [options]**
 
 **Options:**
+
   -a, --add                  *add snippet*
+  
   -s, --search <searchterm>  *search snippets*
+    
   -t, --tag [tagname]        *search tag*
+  
   -v, --vers                 *display version number*
+  
   -h, --help                 *output usage* information*
+  
 
-###Demo###
+### Demo
 
-##ToDo##
+**Getting started**
+
+![snv help](http://senordeveloper.net/wp-content/uploads/2019/12/snv-help.gif)
+
+
+**adding snippets**
+
+![snv add](http://senordeveloper.net/wp-content/uploads/2019/12/snv-add.gif)
+
+
+**Getting started**
+
+![snv search](http://senordeveloper.net/wp-content/uploads/2019/12/snv-search.gif)
+
+
+## ToDo
 * delete snippets
 * combine usage of [snippet-vault](https://github.com/ftnilsson/snippet-vault) and snippet-vault-cli
 * use .env
