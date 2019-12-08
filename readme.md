@@ -1,7 +1,7 @@
-#Snippet-vault-cli
+#Snippet-vault-cli#
 
 
-##Getting started
+##Getting started##
 
 Clone the repository and cd to checkout diretory.
 
@@ -21,7 +21,7 @@ if you want to change the *"snv"* command, edit package.json and run the link co
         "snv": "./index.js"
     }
 
-##Using
+##Using##
 
 **Usage: snv [options]**
 
@@ -32,9 +32,10 @@ if you want to change the *"snv"* command, edit package.json and run the link co
   -v, --vers                 *display version number*
   -h, --help                 *output usage* information*
 
-###Demo
+###Demo###
 
-##ToDo
+##ToDo##
+* delete snippets
 * combine usage of [snippet-vault](https://github.com/ftnilsson/snippet-vault) and snippet-vault-cli
 * use .env
 * create npm package/ or installer
